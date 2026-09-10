@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chính sách quyền riêng tư — Sổ Quà Cưới</title>
+<style>
+:root { color-scheme: light dark; }
+body {
+  margin: 0;
+  padding: 24px 16px 64px;
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #fff;
+  color: #1c1b1f;
+}
+main { max-width: 40rem; margin: 0 auto; }
+h1 { font-size: 1.6rem; margin: 0 0 4px; }
+h2 { font-size: 1.1rem; margin: 32px 0 8px; color: #c62828; }
+p { margin: 0 0 12px; }
+ul { margin: 0 0 12px; padding-left: 20px; }
+li { margin-bottom: 6px; }
+.sub { color: #5f5f66; margin-bottom: 8px; }
+@media (prefers-color-scheme: dark) {
+  body { background: #131316; color: #e6e1e5; }
+  h2 { color: #ffb4a8; }
+  .sub { color: #a8a3ad; }
+}
+
+</style>
+</head>
+<body>
+<main>
+<h1>Chính sách quyền riêng tư</h1>
+<p class="sub">Sổ Quà Cưới — cập nhật 10/09/2026</p>
+<h2>Tóm tắt</h2>
+<p>Sổ Quà Cưới chạy trong máy của bạn. App không có tài khoản và không có máy chủ của nhà phát triển. Dữ liệu chỉ rời khỏi máy khi chính bạn làm một trong hai việc: xuất file rồi tự gửi đi, hoặc bật tính năng lưu lên Google Sheets của bạn (mặc định tắt).</p>
+<h2>App lưu những gì</h2>
+<p>Những thứ bạn tự nhập, và chỉ nằm trong bộ nhớ riêng của app trên máy bạn:</p>
+<ul>
+<li>Tên người tặng, bên (nhà trai / nhà gái), quan hệ.</li>
+<li>Loại quà và giá trị: phong bì, tiền mặt, vàng, hiện vật.</li>
+<li>Ghi chú và thời điểm ghi nhận.</li>
+<li>Câu nói gốc mà máy nghe được, nếu bạn ghi bằng giọng nói.</li>
+<li>Cài đặt: tên cô dâu chú rể, ngày cưới, địa điểm, giá vàng.</li>
+</ul>
+<h2>Micro và nhận diện giọng nói</h2>
+<p>Khi bạn bấm nút micro, app dùng dịch vụ nhận diện giọng nói có sẵn trên máy — trên hầu hết điện thoại Android đó là dịch vụ của Google — để đổi tiếng nói thành chữ.</p>
+<p>App không ghi âm và không lưu bất kỳ file âm thanh nào. App chỉ nhận lại phần chữ, rồi tách ra tên người tặng, loại quà và số tiền.</p>
+<p>Việc xử lý âm thanh do dịch vụ của hệ điều hành thực hiện, không phải do app. Nếu máy bạn chưa tải gói tiếng Việt để dùng ngoại tuyến thì dịch vụ đó có thể gửi âm thanh lên máy chủ của nhà cung cấp để nhận diện. Việc này nằm ngoài tầm kiểm soát của app và chịu sự điều chỉnh của chính sách quyền riêng tư của nhà cung cấp đó. Muốn tránh hoàn toàn, hãy tải gói tiếng Việt ngoại tuyến theo hướng dẫn trong Cài đặt.</p>
+<p>App hỏi ý bạn trước khi xin quyền micro, và bạn có thể từ chối. Từ chối thì app vẫn dùng được đầy đủ bằng nút "Nhập tay".</p>
+<h2>Sao lưu của Google</h2>
+<p>App bật tính năng sao lưu tự động của Android. Dữ liệu sổ quà được sao lưu vào tài khoản Google của chính bạn, để khi đổi máy hoặc cài lại app thì lấy lại được.</p>
+<p>Bản sao lưu này do Android quản lý, được mã hoá bằng khoá gắn với mã mở máy của bạn, và nhà phát triển app không đọc được. Bạn có thể tắt nó trong Cài đặt của Android, mục Sao lưu.</p>
+<h2>Lưu lên Google Sheets (tuỳ chọn, mặc định tắt)</h2>
+<p>Trong Cài đặt có công tắc "Lưu lên Google Sheets". Bật lên thì mỗi khi sổ quà thay đổi, app gửi toàn bộ bảng quà — tên người tặng, bên, quan hệ, loại quà, số tiền, vàng, hiện vật, ghi chú, thời gian, và câu đã nói — vào một file Google Sheets trong tài khoản Google của chính bạn. Nhà phát triển không có máy chủ trung gian và không nhận được dữ liệu. Kết nối dùng HTTPS.</p>
+<p>Cách thứ nhất là đăng nhập bằng tài khoản Google ngay trong app. Khi đó app nhận được địa chỉ email và tên hiển thị của bạn (chỉ để hiện trong Cài đặt, lưu trong máy, không gửi đi đâu), và xin quyền "xem, sửa, tạo các file Google Drive mà app này tạo ra" (drive.file). Với quyền đó app chỉ đụng được vào file "Sổ Quà Cưới" do chính nó tạo, không đọc được file nào khác trong Drive của bạn. Bạn thu hồi quyền này bất cứ lúc nào bằng nút Đăng xuất trong app, hoặc tại myaccount.google.com → Bảo mật → Ứng dụng bên thứ ba.</p>
+<p>Cách thứ hai, không cần đăng nhập, là dán vào app một đường dẫn Google Apps Script mà bạn tự tạo trong tài khoản Google của mình. Đường dẫn đó và mã bí mật chỉ lưu trong máy, không nằm trong file sao lưu.</p>
+<p>Dữ liệu nằm trong Google Sheets do bạn quản lý và chịu sự điều chỉnh của chính sách quyền riêng tư của Google. Tắt công tắc thì app ngừng gửi ngay; những gì đã gửi vẫn nằm trong sheet cho tới khi bạn xoá file đó. App không bao giờ tự xoá file trên Drive của bạn.</p>
+<h2>File bạn tự xuất ra</h2>
+<p>Khi bạn bấm xuất Excel, PDF hay sao lưu, app tạo file trong bộ nhớ tạm rồi mở bảng chia sẻ của Android để bạn tự chọn nơi gửi.</p>
+<p>App không tự gửi các file đó đi đâu. Bạn gửi cho ai thì dữ liệu tới đó, và kể từ lúc ấy nó chịu sự điều chỉnh của ứng dụng hoặc dịch vụ mà bạn đã chọn.</p>
+<h2>Quyền mà app xin</h2>
+<p>App xin đúng hai quyền:</p>
+<ul>
+<li>Micro (RECORD_AUDIO) — để ghi quà bằng giọng nói. Không bắt buộc.</li>
+<li>Mạng (INTERNET) — chỉ để gửi bảng quà lên Google Sheets của bạn khi bạn bật tính năng đó. Không có gì khác trong app dùng mạng.</li>
+</ul>
+<h2>App không làm những việc sau</h2>
+<p>Không quảng cáo. Không đo lường hay phân tích hành vi. Không có thư viện theo dõi của bên thứ ba. Ngoài Google Sheets do chính bạn bật, app không kết nối tới máy chủ nào.</p>
+<h2>Xoá dữ liệu</h2>
+<p>Vào Cài đặt → Xoá toàn bộ dữ liệu. Gỡ app cũng xoá sạch dữ liệu trong máy. Nếu muốn xoá cả bản sao lưu, hãy xoá nó trong phần Sao lưu của tài khoản Google. Nếu đã bật Google Sheets, hãy xoá thêm file sheet trong Google Drive của bạn.</p>
+<h2>Trẻ em</h2>
+<p>App không dành cho trẻ em và không cố ý thu thập thông tin của trẻ em.</p>
+<h2>Thay đổi chính sách</h2>
+<p>Chính sách thay đổi thì ngày sửa ở đầu trang đổi theo, và bản trong app cập nhật cùng lúc với bản trên mạng.</p>
+<h2>Liên hệ</h2>
+<p>Có câu hỏi về quyền riêng tư, xin liên hệ: thaind1.work@gmail.com</p>
+</main>
+</body>
+</html>
